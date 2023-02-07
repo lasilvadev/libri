@@ -1,0 +1,345 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Jaldi&display=swap');
+
+/* STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+:root
+{
+    --bg-green: #4E5C4F;
+    --dark-brown: #987B59;
+    --light-brown: #C28C23;
+    --bg-beige: #FDFDF0;
+    --light-gris: #ABA8A8;
+    --lighest-gris: #C9C2C2;
+}
+
+body{
+    background-image: url(/assets/images/bg-image.svg);
+    background-repeat: repeat-x;
+    background-size: 100%;
+}
+
+h1, h2{
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 400;
+}
+/* LOGIN PAGE */
+
+.login{
+    display: flex;
+    gap: 20px;
+    padding: 40px 150px;
+}
+
+/* LEFT SIDE */
+.left{
+    max-width: 565px;
+    width: 50%;
+    height: 100%;
+    background: var(--bg-beige);
+    border-radius: 28px 120px 100px 28px;
+}
+
+.left .left_content{
+    top: 0px;
+    right: 0px;
+    padding: 80px;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.left_content h1{
+    text-align: center;
+    font-size: 60px;
+    color: var(--dark-brown);
+    margin-bottom: 80px;
+}
+
+.quote{
+    text-align: center;
+    margin: 160px 40px;
+    color: var(--dark-brown);
+}
+
+.quote .author{
+    text-align: right;
+    font-size: 14px;
+    color: var(--light-brown);
+}
+
+.left_content img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* RIGHT SIDE */
+.right{
+    max-width: 565px;
+    width: 50%;
+    height: 100%;
+    background: var(--bg-beige);
+    border-radius: 120px 28px 28px 120px;
+}
+
+.right .bookmark{
+    display: none;
+}
+
+.right_content {
+    width: 90%;
+    top: 0px;
+    right: 0px;
+    padding: 80px;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.right_content h2{
+    text-align: center;
+    font-size: 35px;
+    color: var(--dark-brown);
+    margin-bottom: 60px;
+    
+}
+
+.right_content form{
+    display: flex;
+    flex-direction: column;    
+}
+
+.login-input{
+    margin: auto;
+    height: 45px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 0 0 0 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 27px;
+    position: relative;
+}
+
+.login-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 27px;
+    padding: 10px 26px;
+    color: var(--light-gris) ;
+}
+
+.login-input i{
+    position: absolute;
+    color: var(--lighest-gris);
+    top: 26%;
+}
+
+input::placeholder{
+    color: var(--light-gris);
+}
+form p{
+   text-align: right;
+   color: var(--light-brown);
+   font-size: 14px;
+   font-family: 'Jaldi', sans-serif;
+   margin-top: -10px;
+   font-weight: 500;
+}
+
+form p a{
+    text-decoration: none;
+    color: var(--light-brown);
+    font-size: 14px;
+    justify-content: end;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.btn-login{
+    margin: auto;
+    height: 45px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: var(--dark-brown);
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 27px;
+    position: relative;
+    width: 50%;
+    color: var(--bg-beige);
+    letter-spacing: 1px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+form .division {
+    color: var(--light-gris);
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: 400;
+}
+
+.division-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+.divider-line{
+    border-bottom: 2px solid var(--light-brown);
+    margin: 3px 0;
+    width: 80px;
+}
+
+.social-btn{
+    margin: auto;
+    height: 45px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--lighest-gris);
+    padding: 0 30px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 27px;
+    width:100%;
+    color: var(--dark-brown);
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sign-up{
+    margin: 10px auto;
+    font-weight: 500;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.sign-up a{
+    text-decoration: underline;
+}
+
+.tablet-img{
+    display: none;
+}
+
+.phone-img{
+    display: none;
+}
+
+/* MEDIA QUERIES -- TABLETS*/
+@media screen and (max-width: 1100px) {
+    body{
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+
+    .login{
+        height: 100vh;
+        padding: 60px 100px;
+        justify-content: center;
+        margin: 0;
+        gap: 0;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        border-radius: 28px 28px 28px 28px;
+        width: 100%;
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .right_content{
+        margin-top: 100px;
+        width: 80%;
+        height: fit-content;
+        padding: 80px 80px 30px 80px;
+    }
+
+    .right_content h2{
+        margin-bottom: 60px;
+    }
+
+    .right .bookmark{
+        display: flex;
+        position: absolute;
+        transform: translateY(-5px);
+    }
+
+    .sign-up{
+        margin-bottom: 50px;
+    }
+
+    .tablet-img{
+        display: block;
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERIES -- PHONES*/
+
+@media screen and (max-width: 700px){
+    .tablet-img{
+        display: none;
+    }
+
+    .login{
+        padding: 30px 22px;
+    }
+
+    .right_content{
+        padding: 10px 30px 10px 30px;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .right_content h2{
+        margin-bottom: 30px;
+    }
+
+    .right .bookmark{
+        width: 120px;
+        height: auto;
+        margin: auto;
+    }
+
+    .sign-up{
+        margin-top: 0;
+         margin-bottom: 25px;
+    }
+    .phone-img{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+
