@@ -28,7 +28,7 @@ The page has two input fields for the user to enter their e-mail and password. T
 The page includes a prominent login button that will allow the user to submit their credentials and access their library's collection.
 
 ### Error handling
-The page includes error handling to inform the user if their e-mail or password is incorrect, or if any required fields are missing.
+The page includes error handling to inform the user if any required fields are missing.
 
 ### Author
 Larissa M. Silva
