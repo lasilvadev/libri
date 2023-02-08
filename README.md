@@ -1,2 +1,3 @@
-# libri
-Login page for personal library website/app.
+# LIBRI
+ 
+First design for a login page of LIBRI: personal library website and app.
