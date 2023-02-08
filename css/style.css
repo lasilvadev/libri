@@ -22,8 +22,8 @@
 
 body{
     background-image: url("../images/bg-image.svg");
-    background-repeat: repeat-x;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1, h2{
@@ -35,7 +35,12 @@ h1, h2{
 .login{
     display: flex;
     gap: 20px;
-    padding: 40px 150px;
+    padding: 30px 100px;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center
 }
 
 /* LEFT SIDE */
@@ -50,10 +55,12 @@ h1, h2{
 .left .left_content{
     top: 0px;
     right: 0px;
-    padding: 80px;
-    height: 100vh;
+    padding: 60px;
+    height: 100%;
     align-content: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -61,12 +68,12 @@ h1, h2{
     text-align: center;
     font-size: 60px;
     color: var(--dark-brown);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .quote p{
     text-align: center;
-    margin: 120px 10px 0 10px;
+    margin: 25px 25px 0 25px;
     color: var(--dark-brown);
     font-family: 'IM Fell French Canon SC', serif;
     font-size: 18px;
@@ -76,15 +83,15 @@ h1, h2{
     text-align: right;
     font-size: 14px;
     color: var(--light-brown);
-    margin-top: 7px;
+    margin-top: 0px;
     font-family: 'Jaldi', sans-serif;
 }
 
 .left_content img{
     display: block;
-    width: 90%;
+    width: 85%;
     height: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -103,11 +110,13 @@ h1, h2{
 }
 
 .right_content {
-    width: 90%;
+    width: 80%;
     top: 0px;
     right: 0px;
-    padding: 80px;
-    height: 100vh;
+    padding: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
     align-content: center;
     justify-content: center;
     margin: auto;
@@ -117,7 +126,7 @@ h1, h2{
     text-align: center;
     font-size: 30px;
     color: var(--dark-brown);
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     
 }
 
@@ -200,6 +209,7 @@ form .division {
     text-align: center;
     font-family: 'IM Fell French Canon SC', serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .division-login{
@@ -229,10 +239,13 @@ form .division {
     width:100%;
     color: var(--dark-brown);
     font-size: 14px;
-    font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.social-btn i{
+    font-size: 20px;
 }
 
 
@@ -281,7 +294,7 @@ form .division {
 
     .right_content{
         margin-top: 100px;
-        width: 80%;
+        width: 100%;
         height: fit-content;
         padding: 80px 80px 30px 80px;
     }
@@ -294,6 +307,8 @@ form .division {
         display: flex;
         position: absolute;
         transform: translateY(-5px);
+        width: 200px;
+    height: auto;
     }
 
     .sign-up{
