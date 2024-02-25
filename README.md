@@ -15,7 +15,7 @@ Libri's login page is the first step towards realizing the vision of an app or w
 3. **Visual Consistency:** The design maintains visual consistency across elements, creating a cohesive and harmonious login experience.
 4. **Focus on User Experience:** Every aspect of Libri's login page is crafted with user experience in mind, prioritizing simplicity, clarity, and efficiency.
 
-<img src="https://github.com/lasilvadev/libri/assets/115965406/f87795e6-36bf-45aa-9710-4f4b59725baa" alt="libri" height="400"/>      <img src="https://github.com/lasilvadev/libri/assets/115965406/744535b1-f098-4852-adf3-66b51abfad2c" alt="libri" height="400"/> 
+<img src="https://github.com/lasilvadev/libri/assets/115965406/f87795e6-36bf-45aa-9710-4f4b59725baa" alt="libri" height="300"/>      <img src="https://github.com/lasilvadev/libri/assets/115965406/744535b1-f098-4852-adf3-66b51abfad2c" alt="libri" height="300"/> 
 
 ## Target Audience
 For individuals who are passionate about organizing and managing their personal libraries. Whether it's avid readers, students, or professionals seeking to curate their digital book collections, Libri offers a user-friendly entry point into the world of personalized libraries.
@@ -26,3 +26,6 @@ Libri's login page would serve as the doorway to a digital realm where users cou
 ## Links
 - [Behance](https://www.behance.net/gallery/163641363/LOGIN-PAGE-LIBRI)
 - [Live App](https://lasilvadev.github.io/libri/)
+
+### Author
+Larissa M. Silva | [LinkedIn](https://www.linkedin.com/in/mslarissasilva/)  |  [Instagram](https://www.instagram.com/lali.codes/)
